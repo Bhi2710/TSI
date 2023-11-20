@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>TSI - tool</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <script type="javascript" src="js/main.js"></script>
+  <style></style>
+</head>
+
+<body>
+
+  <div class="container-fluid">
+
+    <div class="row bottomshodow">
+      <div class="col-2 ">
+
+      </div>
+      <div class="col-8 heading logo">
+        <a href="#"><img src="images/logo.png" alt="TSI LOGO"></a>
+        <h1>Transport Sustainability Index (TSI) tool</h1>
+      </div>
+
+      <div class="col-2"></div>
+    </div>
+
+
+    <div class="row">
+      <div class="col bgcolor">
+        <div class="compareheading">
+          <h2>Existing Survey </h2>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-2"></div>
+
+      <div class="col-8">
+        <div class="exibutndiv">
+
+
+          <input type="radio" id="html" name="fav_language" value="HTML">
+          <label for="html">Your Survey</label>
+          <input type="radio" id="css" name="fav_language" value="CSS">
+          <label for="css">All Survey</label>
+
+          <select name="#" id="#">
+            <option value="#">List of Survey</option>
+          </select>
+          <div class="resultdiv">
+            Result - 025
+          </div>
+
+
+        </div>
+      </div>
+
+      <div class="col-2"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-2"></div>
+      <div class="col-8">
+        <div class="surveytablediv">
+          <canvas id="yearChart"></canvas>
+        </div>
+      </div>
+      <div class="col-2"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-2"></div>
+      <div class="col-2 comparebtn">
+        <a href="./compare-survey.html">COMPARE</a>
+      </div>
+      <div class="col-2"></div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-2"></div>
+      <div class="col-8">
+        <div class="surveytablediv">
+          <div class="form">
+            <div class="title-div">
+              <h1>TRANSPORTATION SUSTAINABILITY INDEX - SURVEY FORM</h1>
+              <p>This form is designed by CSIR-CRRI (Central Road Research Institute) to gather data on various aspects
+                of
+                transportation and its impact on sustainability. Your responses will help us understand and improve the
+                current state of transportation systems.</p>
+              <p class="required">*Required</p>
+            </div>
+
+            <div class="name-div">
+              <div class="name">Name</div>
+              <div class="input-div">
+                <input type="text" name="answer" placeholder="Your answer">
+              </div>
+            </div>
+
+            <div class="email-div">
+              <div class="name">Email</div>
+              <div class="input-div">
+                <input type="email" name="answer" placeholder="Your answer">
+              </div>
+            </div>
+
+            <div class="address-div">
+              <div class="name">Address</div>
+              <div class="input-div">
+                <input type="text" name="answer" placeholder="Your answer">
+              </div>
+            </div>
+
+            <div class="phone-div">
+              <div class="name">Phone number</div>
+              <div class="input-div">
+                <input type="tel" name="answer" placeholder="Your answer">
+              </div>
+            </div>
+
+            <div class="age-div">
+              <div class="name">Age</div>
+              <div class="input-div">
+                <input type="number" name="answer" placeholder="Your answer">
+              </div>
+            </div>
+
+            <div class="occupation-div">
+              <div class="name">Occupation</div>
+              <select class="select-div">
+                <option>Choose</option>
+                <option>Acedamic / Researcher</option>
+                <option>Transport Industry Operator</option>
+                <option>Govt. / Service</option>
+                <option>Student</option>
+                <option>Business</option>
+                <option>OTHER</option>
+              </select>
+            </div>
+
+            <div class="address-div">
+              <div class="name">Name of School/College/Organization/Institute</div>
+              <div class="input-div">
+                <input type="text" name="answer" placeholder="Your answer">
+              </div>
+            </div>
+
+            <div class="occupation-div">
+              <div class="question-div">
+                <p>What is your primary mode of transportation for your daily commute? Please select one.</p>
+                <p>Type of Vehicle/ Mode used in your daily trip</p>
+              </div>
+              <select class="select-div">
+                <option>Choose</option>
+                <option>E-rickshaw</option>
+                <option>Auto</option>
+                <option>Car</option>
+                <option>two-wheeler</option>
+                <option>train</option>
+                <option>metro</option>
+                <option>bus</option>
+                <option>walk</option>
+                <option>cycle</option>
+                <option>pvt. operator single</option>
+                <option>pvt. operator shared</option>
+              </select>
+            </div>
+
+            <div class="radio-div">
+              <div class="radio-questions">
+                <p>Air pollution in your city</p>
+                <p>(AQI 0-50 good,51-100 satisfactory,101-200 moderately polluted,201-300 poor,301-400 very poor,401-500
+                  very severe) (as per cpcb norms)</p>
+              </div>
+              <div class="radio-items">
+                <div class="label-items">
+                  <label>1</label>
+                  <label>2</label>
+                  <label>3</label>
+                  <label>4</label>
+                  <label>5</label>
+                  <label>6</label>
+                  <label>7</label>
+                  <label>8</label>
+                  <label>9</label>
+                  <label>10</label>
+                </div>
+                <div class="radio-input">
+                  <label>low air pollution</label>
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <label>high air pollution</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="radio-div">
+              <div class="radio-questions">
+                <p>Emissions from transportation in your city</p>
+                <p>CO2 equivalent emissions from transportation sector in delhi is about 12394.54 Gg and in greater
+                  bangalore is about 8608 Gg and in Ahmedabad is about 2273.72 Gg { as per the report " Sector-wise
+                  Assessment of Carbon Footprint across Major Cities in India"}</p>
+              </div>
+              <div class="radio-items">
+                <div class="label-items">
+                  <label>1</label>
+                  <label>2</label>
+                  <label>3</label>
+                  <label>4</label>
+                  <label>5</label>
+                  <label>6</label>
+                  <label>7</label>
+                  <label>8</label>
+                  <label>9</label>
+                  <label>10</label>
+                </div>
+                <div class="radio-input">
+                  <label>low air pollution</label>
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <label>high air pollution</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="radio-div">
+              <div class="radio-questions">
+                <p>Effect of transortation on global climate change</p>
+                <p>Transportation is one of the major contributors to global climate change. According to a report by
+                  the United Nations Department of Economic and Social Affairs, the transportation sector in 2010 was
+                  responsible for about 23% of total energy-related CO2 emissions worldwide. In the United States, the
+                  transportation sector accounted for 29% of the nation’s total emissions of 6.4 billion metric tons of
+                  carbon dioxide equivalent, or CO2e in 2017.</p>
+              </div>
+              <div class="radio-items">
+                <div class="label-items">
+                  <label>1</label>
+                  <label>2</label>
+                  <label>3</label>
+                  <label>4</label>
+                  <label>5</label>
+                  <label>6</label>
+                  <label>7</label>
+                  <label>8</label>
+                  <label>9</label>
+                  <label>10</label>
+                </div>
+                <div class="radio-input">
+                  <label>lesser effect</label>
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <label>higher effect </label>
+                </div>
+              </div>
+            </div>
+
+            <div class="radio-div">
+              <div class="radio-questions">
+                <p>Rate the townscape quality of your city</p>
+                <p>
+                  Townscape quality refers to the visual arrangement and coherence of the urban environment’s chaotic
+                  collection of structures, roadways, and open areas. It is often used in urban design and planning to
+                  describe the aesthetic and functional characteristics of urban spaces.
+                </p>
+              </div>
+              <div class="radio-items">
+                <div class="label-items">
+                  <label>1</label>
+                  <label>2</label>
+                  <label>3</label>
+                  <label>4</label>
+                  <label>5</label>
+                  <label>6</label>
+                  <label>7</label>
+                  <label>8</label>
+                  <label>9</label>
+                  <label>10</label>
+                </div>
+                <div class="radio-input">
+                  <label>low townscape quality</label>
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <label>high townscape quality </label>
+                </div>
+              </div>
+            </div>
+
+            <div class="radio-div">
+              <div class="radio-questions">
+                <p>Rate the townscape quality of your city</p>
+                <p>
+                  Townscape quality refers to the visual arrangement and coherence of the urban environment’s chaotic
+                  collection of structures, roadways, and open areas. It is often used in urban design and planning to
+                  describe the aesthetic and functional characteristics of urban spaces.
+                </p>
+              </div>
+              <div class="radio-items">
+                <div class="label-items">
+                  <label>1</label>
+                  <label>2</label>
+                  <label>3</label>
+                  <label>4</label>
+                  <label>5</label>
+                  <label>6</label>
+                  <label>7</label>
+                  <label>8</label>
+                  <label>9</label>
+                  <label>10</label>
+                </div>
+                <div class="radio-input">
+                  <label>low townscape quality</label>
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <label>high townscape quality</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="radio-div">
+              <div class="radio-questions">
+                <p>Land used by the transportation in your city</p>
+                <p>
+                  Delhi has a road network density of 1749 km of road length per 100 km². The Himalayan region and north
+                  eastern states have very low density of road network , which is below 20 km per 100 square km area. {
+                  source-MORTH}
+                </p>
+              </div>
+              <div class="radio-items">
+                <div class="label-items">
+                  <label>1</label>
+                  <label>2</label>
+                  <label>3</label>
+                  <label>4</label>
+                  <label>5</label>
+                  <label>6</label>
+                  <label>7</label>
+                  <label>8</label>
+                  <label>9</label>
+                  <label>10</label>
+                </div>
+                <div class="radio-input">
+                  <label>low land used</label>
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <input type="radio" name="air">
+                  <label>high land used</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="radio-div">
+              <div class="radio-questions">
+                <p>Consumption of petrol in your daily trip</p>
+              </div>
+              <div class="radio-petrol">
+                <div class="radio-input">
+                  <div>
+                    <input type="radio" name="air">
+                    <label>0 ml</label>
+                  </div>
+                  <div>
+                    <input type="radio" name="air">
+                    <label>0-100 ml</label>
+                  </div>
+                  <div>
+                    <input type="radio" name="air">
+                    <label>100-200 ml</label>
+                  </div>
+                  <div>
+                    <input type="radio" name="air">
+                    <label>200-300 ml</label>
+                  </div>
+                  <div>
+                    <input type="radio" name="air">
+                    <label>300-400 ml</label>
+                  </div>
+                  <div>
+                    <input type="radio" name="air">
+                    <label>400-500 ml</label>
+                  </div>
+                  <div>
+                    <input type="radio" name="air">
+                    <label>500-600ml</label>
+                  </div>
+                  <div>
+                    <input type="radio" name="air">
+                    <label>600-800ml</label>
+                  </div>
+                  <div>
+                    <input type="radio" name="air">
+                    <label>800-900ml</label>
+                  </div>
+                  <div>
+                    <input type="radio" name="air">
+                    <label> &gt; 900ml</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <input class="forminputbutton" type="submit" name="Submit">
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-2"></div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col footer">
+      Copywrite 2023
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="./js/main.js"></script>
+
+</body>
+
+</html>

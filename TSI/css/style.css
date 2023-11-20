@@ -1,0 +1,445 @@
+
+html, body{ margin: 0px; padding: 0px;
+    border: 0px;}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.bottomshodow{ box-shadow: 1px 1px 15px #000;
+z-index: 1px;}
+
+
+
+
+.logo img{
+    float: left;
+}
+.logo a{ display: block;
+    padding: 10px 0px;
+    margin: 10px 0;
+}
+
+.heading{
+    text-align: left;
+
+}
+.heading h1{ 
+    padding: 0px 0 40px 0px;
+font-size: 40px;
+font-weight:bold ;
+text-align: right;}
+
+
+
+.logindiv{ font-family: 'Poppins', sans-serif;
+color: #fff;
+width: 300px;
+float: right;
+margin: 30px 50px 0 0;}
+    
+.logindiv span{ text-align: center;
+    display: block;    
+    font-size: larger;}
+
+.emaildiv{
+    margin: 30px 0 0 0;
+    }
+.emaildiv span{ display: block;
+    text-align: left;}
+.emaildiv input{border: none;
+    border-radius: 5px;
+    padding: 6px;
+    width: 300px;
+    margin: 10px 0 0 0;}
+
+.passwrddiv{margin: 30px 0;}
+
+.passwrddiv span{display: block;
+    text-align: left;}
+
+.passwrddiv input{ border: none;
+    border-radius: 5px;
+    padding: 6px;
+    width: 300px;
+    margin: 10px 0 0 0;}
+
+.remfordiv{ margin: 0 0 80px 0;}
+.remember{ float: left;}
+.forget a{ 
+color: #fff;
+float: right;}
+
+.loginbutn{ display: block;
+margin: 50px 0 0 0;}
+.loginbutn button { width: 300px;
+background: #083289;
+border: #083289;}
+
+
+.regibutn button { width: 300px;
+    margin: 30px 0;
+    background: #323e4d;
+    border: #083289;}
+
+
+.textdiv{ text-align: justify;
+width: 680px;
+float: left;
+margin: 50px 30px;
+font-size: 18px;
+line-height: 36px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+.footer{background: #323E4D;
+color: azure;
+text-align: center;
+padding: 15px 0px;
+margin: 10px 0 0px 0;}
+
+
+.bgcolor{ background: #AA184E;
+    box-shadow: 5px 5px 15px #fe97bd;}
+
+
+.surveydiv{ float: right;
+color: #fff;
+margin: 30px 200px 20px 0px;}
+.surveydiv span{font-family: 'Poppins', sans-serif;
+font-size: 35px;}  
+.surveytext{  display: flex;
+margin: 50px 0 0px 0; } 
+
+.yoursuvey { font-family: Verdana, Geneva, Tahoma, sans-serif;}
+.yoursuvey span{ display: block; } 
+.linediv{ margin: 20px 50px; }
+.allsurvey{ font-family: Verdana, Geneva, Tahoma, sans-serif;} 
+.allsurvey span{ display: block; } 
+
+
+
+
+
+.chartdiv{ background: #252525;} 
+.newbg{ background: #252525;}   
+.newsurveybut a{ display: block;
+background: #AA184E;
+color: #fff;
+float: right;
+width: 475px;
+padding: 20px;
+text-align: center;
+text-decoration: none;
+border-radius: 5px;
+margin: 30px 60px 30px 0;
+font-size: 30px;
+text-shadow: 5px 5px 15px #000;}
+.newsurveybut a:hover{ color: #fff;
+    background: #323e4d;} 
+.existingsurveybut a{display: block;
+    background: #AA184E;
+    color: #fff;
+    
+    width: 475px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 30px 0 30px 60px;
+    font-size: 30px;
+    text-shadow: 5px 5px 15px #000;} 
+
+    .existingsurveybut a:hover{ color: #fff;
+    background: #323e4d;}    
+
+.helpdiv{ width:1100px ;
+    display: block;
+border: 1px solid #000;
+text-align: center;
+padding: 20px;
+border-radius: 5px;
+margin: 0 0 30px 0;
+
+}    
+.helpdiv p{ text-align: left;}
+
+.compareheading{ text-align: center;
+padding: 10px 0;
+color: #fff;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+
+
+.surveybtndiv{ margin: 40px 0px;}
+
+.surveybtndiv  select{ padding: 10px;
+    font-size: 18px;
+background: #670227;
+color: #fff;
+border-radius: 5px;
+margin: 0 0px 0 10px;
+width: 200px;}
+
+.surveybtndiv option{ background: #fff; 
+color: #000;}
+.mt{margin-top: 120px;}
+
+.exibutndiv{ 
+background-color: #bebfc1;
+margin: 30px 0;
+display: block;
+}
+
+
+.exibutndiv input{ flex: 1; margin: 25px 0 25px 20px; padding: 0 0 0 0; }
+.exibutndiv label{ flex: 1; margin: 0px 60px 0 0; font-size: larger;font-weight: bold; }
+
+
+.exibutndiv select{ padding: 8px;
+    font-size: 18px;
+background: #670227;
+color: #fff;
+border-radius: 5px;
+margin: 10px 0px 10px 0px;
+width: 200px;
+
+}
+
+
+
+.resultdiv{background-color: #75777a;
+border-top: 1px solid #fff;
+padding: 15px 10px 15px 30px;
+color: #fff;
+font-size: 25px;
+font-weight: bold;}
+
+.comparebtn a{ display: block;
+margin: 30px 0;
+text-decoration: none ;
+background: #083289;
+padding: 10px;
+text-align: center;
+color: #fff;
+font-size: 20px;
+box-shadow: 5px 5px 5px #000;  font-weight: bold;}
+
+.comparebtn a:hover{ font-weight: bold;
+color: #083289;
+background: #bebfc1;
+}
+
+.cmnbutn{ float: right;
+
+}
+.cmnbutn a{
+    display: block;
+margin: 10px 0;
+text-decoration: none ;
+background: #083289;
+padding: 5px 0px;
+text-align: center;
+color: #fff;
+font-size: 20px;
+ 
+font-weight: bold;
+width: 200px;
+float: right;
+
+}
+/* Css */
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.form{
+    height: 800px;
+    /* width: 100%; */
+    margin: auto;
+    overflow: scroll;
+}
+
+.title-div{
+    /* height: 350px;
+    width: 700px; */
+    background-color: #fdfefe;
+    margin: 15px;
+    border-radius: 8px;
+    border-top: 8px solid #670227;
+    padding: 25px;
+}
+
+.name-div, 
+.email-div, 
+.address-div, 
+.phone-div, 
+.age-div,
+.occupation-div,
+.radio-div{
+    /* height: 150px; */
+    padding: 25px 0px;
+    /* width: 700px; */
+    background-color: #fdfefe;
+    border-radius: 8px;
+    margin: 15px;
+}
+
+.name{
+    padding-top: 20px;
+    padding-left: 25px;
+    /* padding-bottom: 25px; */
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.input-div{
+    padding-top: 25px;
+    padding-left: 25px
+}
+
+.input-div input{
+    width: 300px;
+    border: 0;
+    outline: 0;
+    border-bottom: 1.5px solid #dcd7d7;
+    background-color: #fdfefe;
+    font-size: 16px;
+}
+
+.select-div{
+    margin-top: 25px;  
+    margin-left: 25px;
+    padding: 10px;
+    width: 300px;
+    border: 1.5px solid #dcd7d7;
+    border-radius: 5px;
+}
+
+.question-div p:nth-child(1){
+    /* padding-top: 20px; */
+    padding-left: 25px;
+    font-size: 18px;
+    /* font-weight: bold; */
+}
+
+.question-div p:nth-child(2){
+    /* padding-top: 20px; */
+    padding-left: 25px;
+    font-size: 18px;
+    font-weight: bold;        
+}
+
+.radio-questions p:nth-child(1){
+    padding-left: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.radio-questions p:nth-child(2){
+    padding-left: 25px;
+    font-size: 17px;
+}
+
+.radio-items{
+    text-align: center;
+}
+
+.label-items label{
+    margin: 8px 8px;
+}
+
+.radio-input{
+    margin-top: 14px;
+}
+
+.radio-input input{
+  width: 17px;
+  height: 17px;
+}
+
+.radio-petrol{
+    padding-left: 20px;
+
+}
+
+.radio-petrol > div{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+
+.radio-input > div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.forminputbutton{
+    height: 36px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 540;
+    border: none;
+    background-color: #670227;
+    color: white;
+    margin: 15px;
+}
+
+.btn:hover{
+    background-color: #AA184E;
+}
+
+.cmnbutn a:hover{
+    font-weight: bold;
+    color: #083289;
+    background: #bebfc1;
+    box-shadow: 5px 5px 5px #000; }
+
+
+    .surveybutn{margin: 20px 0;}
+
+    .surveybutn a{  
+        margin: 10px 10px 10px 0;
+        text-decoration: none ;
+        background: #ab184e;
+        padding: 8px 12px;
+        text-align: center;
+        color: #fff;
+        font-size: 20px;
+        
+        border-radius: 5px;  
+       
+        width: 200px;}
+    
+
+        .surveybutn a:hover{ 
+            color: #ab184e;
+            background: #bebfc1;
+            box-shadow: 5px 3px 3px #9f9f9f;  }
+
+
+            @media screen and (max-width: 1680px) {
+                .heading h1{ 
+                    padding: 0px 0 40px 0px;
+                font-size: 36px;
+                font-weight:500 ;
+                text-align: right;}
+                
+                
+                }
+                @media screen and (min-width: 1530px) 
+                {
+                    .heading h1{ 
+                        padding: 0px 0 40px 0px;
+                    font-size: 42px;
+                    font-weight:500 ;
+                    text-align: right;}
+                }            
+
+                
